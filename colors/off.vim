@@ -83,7 +83,6 @@ call s:h("Normal",        {"bg": s:bg, "fg": s:norm})
 call s:h("Cursor",        {"bg": s:blue, "fg": s:norm })
 call s:h("Comment",       {"fg": s:bg_subtle, "gui": "italic"})
 
-"call s:h("Constant",      {"fg": s:cyan})
 hi! link Constant         Normal
 hi! link Character        Constant
 hi! link Number           Constant
@@ -91,11 +90,9 @@ hi! link Boolean          Constant
 hi! link Float            Constant
 hi! link String           Constant
 
-"call s:h("Identifier",    {"fg": s:dark_blue})
 hi! link Identifier       Normal
 hi! link Function         Identifier
 
-"call s:h("Statement",     {"fg": s:green})
 hi! link Statement        Normal
 hi! link Conditonal       Statement
 hi! link Repeat           Statement
@@ -104,20 +101,17 @@ hi! link Operator         Statement
 hi! link Keyword          Statement
 hi! link Exception        Statement
 
-"call s:h("PreProc",       {"fg": s:red})
 hi! link PreProc          Normal
 hi! link Include          PreProc
 hi! link Define           PreProc
 hi! link Macro            PreProc
 hi! link PreCondit        PreProc
 
-"call s:h("Type",          {"fg": s:purple})
 hi! link Type             Normal
 hi! link StorageClass     Type
 hi! link Structure        Type
 hi! link Typedef          Type
 
-"call s:h("Special",       {"fg": s:pink})
 hi! link Special          Normal
 hi! link SpecialChar      Special
 hi! link Tag              Special
@@ -128,7 +122,7 @@ hi! link Debug            Special
 call s:h("Underlined",    {"fg": s:norm, "gui": "underline", "cterm": "underline"})
 call s:h("Ignore",        {"fg": s:bg})
 call s:h("Error",         {"fg": s:actual_white, "bg": s:red, "cterm": "bold"})
-call s:h("Todo",          {"fg": s:light_dark, "bg": s:pink, "gui": "bold", "cterm": "bold"})
+call s:h("Todo",          {"fg": s:light_black, "bg": s:pink, "gui": "bold", "cterm": "bold"})
 call s:h("SpecialKey",    {"fg": s:light_green})
 call s:h("NonText",       {"fg": s:medium_gray})
 call s:h("Directory",     {"fg": s:dark_blue})
