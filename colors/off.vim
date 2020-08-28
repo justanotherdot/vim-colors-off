@@ -1,12 +1,9 @@
 " Name:       off.vim
 " Version:    0.1
-" Maintainer: github.com/pbrisbin
+" Maintainer: Ryan James Spencer <spencer.ryanjames@gmail.com>
 " License:    The MIT License (MIT)
 "
-" A colorscheme meant to look like a more pleasant version of syntax off.
-" Structure and what little color there is is taken from pencil.vim
-"
-" https://github.com/reedes/vim-colors-pencil
+" Who needs colors?
 "
 """
 hi clear
@@ -127,7 +124,7 @@ call s:h("SpecialKey",    {"fg": s:light_green})
 call s:h("NonText",       {"fg": s:medium_gray})
 call s:h("Directory",     {"fg": s:dark_blue})
 call s:h("ErrorMsg",      {"fg": s:pink})
-call s:h("IncSearch",     {"bg": s:yellow, "fg": s:light_black})
+call s:h("IncSearch",     {"bg": s:pink, "fg": s:light_black})
 call s:h("Search",        {"bg": s:bg_subtle, "fg": s:norm})
 call s:h("MoreMsg",       {"fg": s:medium_gray, "cterm": "bold", "gui": "bold"})
 hi! link ModeMsg MoreMsg
@@ -166,8 +163,8 @@ call s:h("Pmenu",         {"fg": s:norm, "bg": s:bg_subtle})
 call s:h("PmenuSel",      {"fg": s:norm, "bg": s:blue})
 call s:h("PmenuSbar",     {"fg": s:norm, "bg": s:bg_subtle})
 call s:h("PmenuThumb",    {"fg": s:norm, "bg": s:bg_subtle})
-call s:h("TabLine",       {"fg": s:norm, "bg": s:bg_very_subtle})
-call s:h("TabLineSel",    {"fg": s:blue, "bg": s:bg_subtle, "gui": "bold", "cterm": "bold"})
+call s:h("TabLine",       {"fg": s:white, "bg": s:bg_very_subtle})
+call s:h("TabLineSel",    {"fg": s:black, "bg": s:white, "gui": "bold", "cterm": "bold"})
 call s:h("TabLineFill",   {"fg": s:norm, "bg": s:bg_very_subtle})
 call s:h("CursorColumn",  {"bg": s:bg_very_subtle})
 call s:h("CursorLine",    {"fg": s:norm, "bg": s:bg_very_subtle})
