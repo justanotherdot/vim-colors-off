@@ -60,11 +60,11 @@ else
   let s:bg_very_subtle  = s:subtle_black
   let s:norm            = s:light_black
   let s:norm_subtle     = s:lighter_black
-  let s:purple          = s:dark_purple
-  let s:cyan            = s:dark_cyan
-  let s:green           = s:dark_green
-  let s:red             = s:dark_red
-  let s:visual          = s:light_blue
+  let s:purple          = s:light_black
+  let s:cyan            = s:light_black
+  let s:green           = s:light_black
+  let s:red             = s:light_black
+  let s:visual          = s:pink
 endif
 
 " https://github.com/noahfrederick/vim-hemisu/
@@ -137,7 +137,7 @@ call s:h("Question",      {"fg": s:red})
 call s:h("StatusLine",    {"bg": s:bg_very_subtle})
 call s:h("StatusLineNC",  {"bg": s:bg_very_subtle, "fg": s:medium_gray})
 call s:h("VertSplit",     {"bg": s:bg_very_subtle, "fg": s:bg_very_subtle})
-call s:h("Title",         {"fg": s:dark_blue})
+call s:h("Title",         {"fg": s:white})
 call s:h("Visual",        {"bg": s:visual})
 call s:h("VisualNOS",     {"bg": s:bg_subtle})
 call s:h("WarningMsg",    {"fg": s:red})
